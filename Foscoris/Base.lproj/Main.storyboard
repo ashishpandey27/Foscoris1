@@ -262,6 +262,18 @@
                                                     <constraint firstAttribute="height" constant="60" id="YO3-HI-7vn"/>
                                                 </constraints>
                                             </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Live Inspections" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DCU-4e-M9J">
+                                                <rect key="frame" x="8" y="76" width="304" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <color key="textColor" red="0.14901960784313725" green="0.14901960784313725" blue="0.14901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qVv-nm-FP6" customClass="GMSMapView">
+                                                <rect key="frame" x="8" y="105" width="304" height="440"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
                                         </subviews>
                                         <constraints>
                                             <constraint firstItem="ZMF-K0-y7q" firstAttribute="leading" secondItem="5O6-sx-trg" secondAttribute="leading" id="F32-Co-6p4"/>
@@ -291,6 +303,7 @@
                     </view>
                     <size key="freeformSize" width="320" height="1024"/>
                     <connections>
+                        <outlet property="mapViewgoogle" destination="qVv-nm-FP6" id="bFv-UP-rEW"/>
                         <outlet property="viewBar" destination="ZMF-K0-y7q" id="Lqt-Cq-qyx"/>
                     </connections>
                 </viewController>

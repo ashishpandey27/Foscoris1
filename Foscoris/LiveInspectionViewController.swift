@@ -7,9 +7,15 @@
 //
 
 import UIKit
+import GoogleMaps
 
-class LiveInspectionViewController: UIViewController {
+class LiveInspectionViewController: UIViewController,GMSMapViewDelegate,CLLocationManagerDelegate {
+    
     @IBOutlet weak var viewBar: UIView!
+    @IBOutlet weak var mapViewgoogle: GMSMapView!
+    
+    
+    var locationManager = CLLocationManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
