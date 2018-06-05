@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AB1FF1B91495EE7322F0098F78DC0F5 /* Pods-Foscoris-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 468FE78861ACAF1B95C356931A2C5D36 /* Pods-Foscoris-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47720CB2AD6909C6BF31D4B960DEC5BE /* Pods-FoscorisUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9F0E957C1C56FA1AE7C02C772D14A2D /* Pods-FoscorisUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48E84B3E82D72B5E1D2D269600AE313F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		55C02349551AE41C01EA885D4BE624A5 /* Pods-FoscorisUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D204C794F0D48B8CAD2CA50E32DF784 /* Pods-FoscorisUITests-dummy.m */; };
+		584B1AF0D0D758117DE8E3FBB00A2706 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5E2D883EB186C7C25964E23A09DE8EA6 /* Pods-FoscorisTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E32E037DF9949CBD626D35D83360DF /* Pods-FoscorisTests-dummy.m */; };
+		79B5B7848EE81EC7AC895A2FB066874D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		960279B179FF2B6E997F3FD5F6B10835 /* Pods-Foscoris-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCFBA9C066C5DAB8907D745312685D5 /* Pods-Foscoris-dummy.m */; };
+		F65B8F94C199B385E6D8A5BF02C22958 /* Pods-FoscorisTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF85B42C8B2A059CD575B74A245378C0 /* Pods-FoscorisTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08F1229163C7F5E61C7C4B361510F11C /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		1C6200385182862E9168588E60B1CD37 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		241C8F7A0DDAA91E107305CF18B3D958 /* Pods-FoscorisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoscorisUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2B7DEA953F8587B33F07E193371EE0FF /* Pods-FoscorisUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoscorisUITests-resources.sh"; sourceTree = "<group>"; };
+		2BA02E7578B687737CBF54DFA8E519CD /* Pods_FoscorisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FoscorisUITests.framework; path = "Pods-FoscorisUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DEDA1EEACAE7FEE6A2E6D4BA21C2543 /* Pods-FoscorisTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoscorisTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		304DE7C892DC621155B54ADF4EDEBE0E /* Pods-FoscorisUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoscorisUITests-frameworks.sh"; sourceTree = "<group>"; };
+		33EA86F72CDC768D7508B5D8C117AFE1 /* Pods-FoscorisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoscorisTests.debug.xcconfig"; sourceTree = "<group>"; };
+		34CDED497A5DBDA11B6FB59B73657426 /* Pods-Foscoris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Foscoris.release.xcconfig"; sourceTree = "<group>"; };
+		34E32E037DF9949CBD626D35D83360DF /* Pods-FoscorisTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoscorisTests-dummy.m"; sourceTree = "<group>"; };
+		45FB3BCDEDD08B9122BD17850C63B36F /* Pods-FoscorisTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoscorisTests-frameworks.sh"; sourceTree = "<group>"; };
+		468FE78861ACAF1B95C356931A2C5D36 /* Pods-Foscoris-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Foscoris-umbrella.h"; sourceTree = "<group>"; };
+		4DB180BE46D39112BA5916394AA03D6E /* Pods-FoscorisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoscorisTests.release.xcconfig"; sourceTree = "<group>"; };
+		4F3A6DC157F1E797F5631E6D9B468329 /* Pods-FoscorisUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FoscorisUITests.modulemap"; sourceTree = "<group>"; };
+		5619977DF6FF1402E9DFD7088B077FDF /* Pods-FoscorisUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoscorisUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		61DBA02F943CD5F4D7CDECCE185A3E7E /* Pods_Foscoris.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Foscoris.framework; path = "Pods-Foscoris.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		70324FDF1FBB41BEA92DE76E00BD3E96 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		79BD49BFA1B9FDDE23C03FC7EF33C46F /* Pods-Foscoris.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Foscoris.modulemap"; sourceTree = "<group>"; };
+		7CC17C7EEE1EAF71A4938B76CCADDFF4 /* Pods-FoscorisTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoscorisTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7F0FE21576A799280FBC9E67BA90C3AB /* Pods_FoscorisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FoscorisTests.framework; path = "Pods-FoscorisTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		867E6B6D6E5F2870EDA964BAC7204F99 /* Pods-FoscorisTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FoscorisTests.modulemap"; sourceTree = "<group>"; };
+		86B14EA4E388209104EB596C2BF84899 /* Pods-FoscorisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoscorisUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D204C794F0D48B8CAD2CA50E32DF784 /* Pods-FoscorisUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoscorisUITests-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93E931E987CFC7D98FD140DDB5EB05A5 /* Pods-Foscoris.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Foscoris.debug.xcconfig"; sourceTree = "<group>"; };
+		9D2DE60F00DB1EEC44FFB4F6E5F4C588 /* Pods-Foscoris-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Foscoris-resources.sh"; sourceTree = "<group>"; };
+		A65ED65616C5861E2765BDC60AAAF910 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		A92DFDA40F47C0FD221B2872C31099A1 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		B22C69ADCE7C9D529F11B17B4EF5E065 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		BF45392C582B00470B4CAAF83944D65D /* Pods-Foscoris-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Foscoris-frameworks.sh"; sourceTree = "<group>"; };
+		CCCFBA9C066C5DAB8907D745312685D5 /* Pods-Foscoris-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Foscoris-dummy.m"; sourceTree = "<group>"; };
+		CEBF7E1EDB829F300F841E62B0158465 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D29464CC336D4F30F73D1A96DD480DAB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9F0E957C1C56FA1AE7C02C772D14A2D /* Pods-FoscorisUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoscorisUITests-umbrella.h"; sourceTree = "<group>"; };
+		DB10BA94A7A6CF16C0E798B81713D90A /* Pods-Foscoris-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Foscoris-acknowledgements.plist"; sourceTree = "<group>"; };
+		E234A36DA1EC4C6DB251D05AD4C7D339 /* Pods-FoscorisUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoscorisUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E2570BC53B44B79F769103E90002C213 /* Pods-FoscorisTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoscorisTests-resources.sh"; sourceTree = "<group>"; };
+		EF85B42C8B2A059CD575B74A245378C0 /* Pods-FoscorisTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoscorisTests-umbrella.h"; sourceTree = "<group>"; };
+		F8C318B08EE71531917C1120F38639AA /* Pods-Foscoris-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Foscoris-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC8999D8433CD3904E41FFCF78407D6D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1542F785E5C49744CD1C1E1B689F4E4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584B1AF0D0D758117DE8E3FBB00A2706 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7233464D1F54A215F269C77EE4804245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E84B3E82D72B5E1D2D269600AE313F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA46DEB408177D0887968D2E698AFE4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79B5B7848EE81EC7AC895A2FB066874D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00B63D9B3EBC8ECAFD5DA8C24F1A42DF /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				475420FA59EFC8377CF994A338979247 /* Frameworks */,
+				09DB508F39D8BE758EA4A7B9047268E9 /* Resources */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		082BF962585E31700FF7AEEE0AD04B8F /* Pods-FoscorisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC8999D8433CD3904E41FFCF78407D6D /* Info.plist */,
+				4F3A6DC157F1E797F5631E6D9B468329 /* Pods-FoscorisUITests.modulemap */,
+				E234A36DA1EC4C6DB251D05AD4C7D339 /* Pods-FoscorisUITests-acknowledgements.markdown */,
+				5619977DF6FF1402E9DFD7088B077FDF /* Pods-FoscorisUITests-acknowledgements.plist */,
+				8D204C794F0D48B8CAD2CA50E32DF784 /* Pods-FoscorisUITests-dummy.m */,
+				304DE7C892DC621155B54ADF4EDEBE0E /* Pods-FoscorisUITests-frameworks.sh */,
+				2B7DEA953F8587B33F07E193371EE0FF /* Pods-FoscorisUITests-resources.sh */,
+				D9F0E957C1C56FA1AE7C02C772D14A2D /* Pods-FoscorisUITests-umbrella.h */,
+				86B14EA4E388209104EB596C2BF84899 /* Pods-FoscorisUITests.debug.xcconfig */,
+				241C8F7A0DDAA91E107305CF18B3D958 /* Pods-FoscorisUITests.release.xcconfig */,
+			);
+			name = "Pods-FoscorisUITests";
+			path = "Target Support Files/Pods-FoscorisUITests";
+			sourceTree = "<group>";
+		};
+		09DB508F39D8BE758EA4A7B9047268E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A65ED65616C5861E2765BDC60AAAF910 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		26C94CF6FBD559155351548F2127E7DB /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				B2F22323EA3B1ADB4F96376E3F709A68 /* Base */,
+				488E301C4ACDDA928635C4886F5F6158 /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		343584E22C57489C672A8E6F731CB43A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1C6200385182862E9168588E60B1CD37 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		385FA015FFB9210F372AB1078B856AAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26C94CF6FBD559155351548F2127E7DB /* GoogleMaps */,
+				00B63D9B3EBC8ECAFD5DA8C24F1A42DF /* GooglePlaces */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3BAA38DEFAA05FCAD871EB3A8657804D /* Pods-FoscorisTests */ = {
+			isa = PBXGroup;
+			children = (
+				D29464CC336D4F30F73D1A96DD480DAB /* Info.plist */,
+				867E6B6D6E5F2870EDA964BAC7204F99 /* Pods-FoscorisTests.modulemap */,
+				2DEDA1EEACAE7FEE6A2E6D4BA21C2543 /* Pods-FoscorisTests-acknowledgements.markdown */,
+				7CC17C7EEE1EAF71A4938B76CCADDFF4 /* Pods-FoscorisTests-acknowledgements.plist */,
+				34E32E037DF9949CBD626D35D83360DF /* Pods-FoscorisTests-dummy.m */,
+				45FB3BCDEDD08B9122BD17850C63B36F /* Pods-FoscorisTests-frameworks.sh */,
+				E2570BC53B44B79F769103E90002C213 /* Pods-FoscorisTests-resources.sh */,
+				EF85B42C8B2A059CD575B74A245378C0 /* Pods-FoscorisTests-umbrella.h */,
+				33EA86F72CDC768D7508B5D8C117AFE1 /* Pods-FoscorisTests.debug.xcconfig */,
+				4DB180BE46D39112BA5916394AA03D6E /* Pods-FoscorisTests.release.xcconfig */,
+			);
+			name = "Pods-FoscorisTests";
+			path = "Target Support Files/Pods-FoscorisTests";
+			sourceTree = "<group>";
+		};
+		475420FA59EFC8377CF994A338979247 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70324FDF1FBB41BEA92DE76E00BD3E96 /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		488E301C4ACDDA928635C4886F5F6158 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				82CE66B3B7EC3F6274BF43A52FEEAE6E /* Frameworks */,
+				343584E22C57489C672A8E6F731CB43A /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		4CFA8C2E94378AFFDBA3DF92FBE7E3DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B22C69ADCE7C9D529F11B17B4EF5E065 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				385FA015FFB9210F372AB1078B856AAB /* Pods */,
+				C6EDAD84D2A1B49AC1BE2A6CEBA6C7CC /* Products */,
+				DF8C3E0EE53EBD89B1466E1B84C3040D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82CE66B3B7EC3F6274BF43A52FEEAE6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08F1229163C7F5E61C7C4B361510F11C /* GoogleMaps.framework */,
+				A92DFDA40F47C0FD221B2872C31099A1 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2F22323EA3B1ADB4F96376E3F709A68 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4CFA8C2E94378AFFDBA3DF92FBE7E3DC /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6EDAD84D2A1B49AC1BE2A6CEBA6C7CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61DBA02F943CD5F4D7CDECCE185A3E7E /* Pods_Foscoris.framework */,
+				7F0FE21576A799280FBC9E67BA90C3AB /* Pods_FoscorisTests.framework */,
+				2BA02E7578B687737CBF54DFA8E519CD /* Pods_FoscorisUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DF8C3E0EE53EBD89B1466E1B84C3040D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFBDC646593B66A828A5AFA567C55159 /* Pods-Foscoris */,
+				3BAA38DEFAA05FCAD871EB3A8657804D /* Pods-FoscorisTests */,
+				082BF962585E31700FF7AEEE0AD04B8F /* Pods-FoscorisUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DFBDC646593B66A828A5AFA567C55159 /* Pods-Foscoris */ = {
+			isa = PBXGroup;
+			children = (
+				CEBF7E1EDB829F300F841E62B0158465 /* Info.plist */,
+				79BD49BFA1B9FDDE23C03FC7EF33C46F /* Pods-Foscoris.modulemap */,
+				F8C318B08EE71531917C1120F38639AA /* Pods-Foscoris-acknowledgements.markdown */,
+				DB10BA94A7A6CF16C0E798B81713D90A /* Pods-Foscoris-acknowledgements.plist */,
+				CCCFBA9C066C5DAB8907D745312685D5 /* Pods-Foscoris-dummy.m */,
+				BF45392C582B00470B4CAAF83944D65D /* Pods-Foscoris-frameworks.sh */,
+				9D2DE60F00DB1EEC44FFB4F6E5F4C588 /* Pods-Foscoris-resources.sh */,
+				468FE78861ACAF1B95C356931A2C5D36 /* Pods-Foscoris-umbrella.h */,
+				93E931E987CFC7D98FD140DDB5EB05A5 /* Pods-Foscoris.debug.xcconfig */,
+				34CDED497A5DBDA11B6FB59B73657426 /* Pods-Foscoris.release.xcconfig */,
+			);
+			name = "Pods-Foscoris";
+			path = "Target Support Files/Pods-Foscoris";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		74A22D056973DA02B9B621E98A8FF7C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65B8F94C199B385E6D8A5BF02C22958 /* Pods-FoscorisTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4F4378F61A00F564D35E1D7F49B813 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB1FF1B91495EE7322F0098F78DC0F5 /* Pods-Foscoris-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED312A3C79CB1C21E9445240B9CA5EFF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47720CB2AD6909C6BF31D4B960DEC5BE /* Pods-FoscorisUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		36265F4BC3B22BF5DDA4502833B71FA2 /* Pods-FoscorisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8667F799E5D948E633405DDDA64F04C9 /* Build configuration list for PBXNativeTarget "Pods-FoscorisTests" */;
+			buildPhases = (
+				CFC2D4DCF0622AF24F2F4C829EBA3A07 /* Sources */,
+				7233464D1F54A215F269C77EE4804245 /* Frameworks */,
+				74A22D056973DA02B9B621E98A8FF7C4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FoscorisTests";
+			productName = "Pods-FoscorisTests";
+			productReference = 7F0FE21576A799280FBC9E67BA90C3AB /* Pods_FoscorisTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		831CECB0F8F391D85D2AD55415F9C9C8 /* Pods-FoscorisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC476842B886858AFF869CEC6C410557 /* Build configuration list for PBXNativeTarget "Pods-FoscorisUITests" */;
+			buildPhases = (
+				B616C0EAD0F2EC2325490F50B4C624EA /* Sources */,
+				1542F785E5C49744CD1C1E1B689F4E4C /* Frameworks */,
+				ED312A3C79CB1C21E9445240B9CA5EFF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FoscorisUITests";
+			productName = "Pods-FoscorisUITests";
+			productReference = 2BA02E7578B687737CBF54DFA8E519CD /* Pods_FoscorisUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9560A156137660A4B0EEEEE704B11190 /* Pods-Foscoris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA9DD849C9FB5D62B1D398D5FAA8C6FA /* Build configuration list for PBXNativeTarget "Pods-Foscoris" */;
+			buildPhases = (
+				71111875B0AE142278438A78ECA229C6 /* Sources */,
+				EA46DEB408177D0887968D2E698AFE4D /* Frameworks */,
+				AE4F4378F61A00F564D35E1D7F49B813 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Foscoris";
+			productName = "Pods-Foscoris";
+			productReference = 61DBA02F943CD5F4D7CDECCE185A3E7E /* Pods_Foscoris.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C6EDAD84D2A1B49AC1BE2A6CEBA6C7CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9560A156137660A4B0EEEEE704B11190 /* Pods-Foscoris */,
+				36265F4BC3B22BF5DDA4502833B71FA2 /* Pods-FoscorisTests */,
+				831CECB0F8F391D85D2AD55415F9C9C8 /* Pods-FoscorisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71111875B0AE142278438A78ECA229C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960279B179FF2B6E997F3FD5F6B10835 /* Pods-Foscoris-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B616C0EAD0F2EC2325490F50B4C624EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C02349551AE41C01EA885D4BE624A5 /* Pods-FoscorisUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC2D4DCF0622AF24F2F4C829EBA3A07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E2D883EB186C7C25964E23A09DE8EA6 /* Pods-FoscorisTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2C2E0B94D07B06BA30910DA4B819F55B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 241C8F7A0DDAA91E107305CF18B3D958 /* Pods-FoscorisUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoscorisUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoscorisUITests/Pods-FoscorisUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FoscorisUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		323A24856F1A4871A780301AF5C02A2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3AC9A0FBED4AC46B30A9FC8F0987D557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34CDED497A5DBDA11B6FB59B73657426 /* Pods-Foscoris.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Foscoris/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Foscoris/Pods-Foscoris.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Foscoris;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		529F9E8DB1C1A3FF0D19EF7FE0F3B7CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93E931E987CFC7D98FD140DDB5EB05A5 /* Pods-Foscoris.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Foscoris/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Foscoris/Pods-Foscoris.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Foscoris;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7BF460568513ACF8B8A3E13CDCAB95CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86B14EA4E388209104EB596C2BF84899 /* Pods-FoscorisUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoscorisUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoscorisUITests/Pods-FoscorisUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FoscorisUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		88179F304800C5E95473FB59C1488C60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33EA86F72CDC768D7508B5D8C117AFE1 /* Pods-FoscorisTests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoscorisTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoscorisTests/Pods-FoscorisTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FoscorisTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0B79F34376F90E8425549D6243597A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DB180BE46D39112BA5916394AA03D6E /* Pods-FoscorisTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoscorisTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoscorisTests/Pods-FoscorisTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FoscorisTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA33F186435244FD0FD5B7325332656C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323A24856F1A4871A780301AF5C02A2A /* Debug */,
+				CA33F186435244FD0FD5B7325332656C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8667F799E5D948E633405DDDA64F04C9 /* Build configuration list for PBXNativeTarget "Pods-FoscorisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88179F304800C5E95473FB59C1488C60 /* Debug */,
+				B0B79F34376F90E8425549D6243597A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA9DD849C9FB5D62B1D398D5FAA8C6FA /* Build configuration list for PBXNativeTarget "Pods-Foscoris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				529F9E8DB1C1A3FF0D19EF7FE0F3B7CE /* Debug */,
+				3AC9A0FBED4AC46B30A9FC8F0987D557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC476842B886858AFF869CEC6C410557 /* Build configuration list for PBXNativeTarget "Pods-FoscorisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BF460568513ACF8B8A3E13CDCAB95CD /* Debug */,
+				2C2E0B94D07B06BA30910DA4B819F55B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		795DA3436E7A3ECED62A7696 /* Pods_Foscoris.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDDA0A4F1BBD388E2A260E87 /* Pods_Foscoris.framework */; };
 		8BBC7E8320C65853006861FC /* list-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BBC7E8220C65853006861FC /* list-menu.png */; };
 		8BBC7E8520C65A4E006861FC /* FSSAI_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BBC7E8420C65A4D006861FC /* FSSAI_logo.png */; };
 		8BBC7E8720C65B23006861FC /* LiveInspectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBC7E8620C65B23006861FC /* LiveInspectionViewController.swift */; };
@@ -19,6 +20,8 @@
 		8BC8B49E20C54D3B00FAB697 /* FoscorisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC8B49D20C54D3B00FAB697 /* FoscorisUITests.swift */; };
 		8BC8B4AD20C54EE300FAB697 /* FoscorisLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BC8B4AC20C54EE300FAB697 /* FoscorisLogo.png */; };
 		8BC8B4AF20C5630A00FAB697 /* DropDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BC8B4AE20C5630900FAB697 /* DropDown.png */; };
+		D9F933B11AEECCAA0C1CE6A4 /* Pods_FoscorisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C7B5C5F683959B41A121952 /* Pods_FoscorisTests.framework */; };
+		F0FEA509963690E779DA6E5E /* Pods_FoscorisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA508C98C6269D31448420DC /* Pods_FoscorisUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		205FEFBE94D81C3131167B8E /* Pods-FoscorisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoscorisUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoscorisUITests/Pods-FoscorisUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D35BD9135BCA3DD617D7F7A /* Pods-FoscorisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoscorisTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoscorisTests/Pods-FoscorisTests.release.xcconfig"; sourceTree = "<group>"; };
+		5FD5AAD0493674E66C164E6B /* Pods-Foscoris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foscoris.release.xcconfig"; path = "Pods/Target Support Files/Pods-Foscoris/Pods-Foscoris.release.xcconfig"; sourceTree = "<group>"; };
+		71F9F04367B278F22B8CAAEB /* Pods-FoscorisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoscorisTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoscorisTests/Pods-FoscorisTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8BBC7E8220C65853006861FC /* list-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-menu.png"; sourceTree = "<group>"; };
 		8BBC7E8420C65A4D006861FC /* FSSAI_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FSSAI_logo.png; sourceTree = "<group>"; };
 		8BBC7E8620C65B23006861FC /* LiveInspectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveInspectionViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +64,11 @@
 		8BC8B49F20C54D3B00FAB697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BC8B4AC20C54EE300FAB697 /* FoscorisLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FoscorisLogo.png; sourceTree = "<group>"; };
 		8BC8B4AE20C5630900FAB697 /* DropDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DropDown.png; sourceTree = "<group>"; };
+		9C7B5C5F683959B41A121952 /* Pods_FoscorisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoscorisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9105C76F4D9F68494D42D26 /* Pods-Foscoris.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foscoris.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Foscoris/Pods-Foscoris.debug.xcconfig"; sourceTree = "<group>"; };
+		AA508C98C6269D31448420DC /* Pods_FoscorisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoscorisUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7402C720C942126E148CAF /* Pods-FoscorisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoscorisUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoscorisUITests/Pods-FoscorisUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FDDA0A4F1BBD388E2A260E87 /* Pods_Foscoris.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Foscoris.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				795DA3436E7A3ECED62A7696 /* Pods_Foscoris.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9F933B11AEECCAA0C1CE6A4 /* Pods_FoscorisTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +92,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0FEA509963690E779DA6E5E /* Pods_FoscorisUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0172F09024C08838996653F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9105C76F4D9F68494D42D26 /* Pods-Foscoris.debug.xcconfig */,
+				5FD5AAD0493674E66C164E6B /* Pods-Foscoris.release.xcconfig */,
+				71F9F04367B278F22B8CAAEB /* Pods-FoscorisTests.debug.xcconfig */,
+				2D35BD9135BCA3DD617D7F7A /* Pods-FoscorisTests.release.xcconfig */,
+				205FEFBE94D81C3131167B8E /* Pods-FoscorisUITests.debug.xcconfig */,
+				CE7402C720C942126E148CAF /* Pods-FoscorisUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8BC8B47120C54D3B00FAB697 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +119,8 @@
 				8BC8B49120C54D3B00FAB697 /* FoscorisTests */,
 				8BC8B49C20C54D3B00FAB697 /* FoscorisUITests */,
 				8BC8B47B20C54D3B00FAB697 /* Products */,
+				0172F09024C08838996653F8 /* Pods */,
+				ABAAD510ABC9FA27CD1FCE35 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,6 +178,16 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		ABAAD510ABC9FA27CD1FCE35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDDA0A4F1BBD388E2A260E87 /* Pods_Foscoris.framework */,
+				9C7B5C5F683959B41A121952 /* Pods_FoscorisTests.framework */,
+				AA508C98C6269D31448420DC /* Pods_FoscorisUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BC8B4A220C54D3B00FAB697 /* Build configuration list for PBXNativeTarget "Foscoris" */;
 			buildPhases = (
+				5570B3F8CC3608FD343D3078 /* [CP] Check Pods Manifest.lock */,
 				8BC8B47620C54D3B00FAB697 /* Sources */,
 				8BC8B47720C54D3B00FAB697 /* Frameworks */,
 				8BC8B47820C54D3B00FAB697 /* Resources */,
+				ACD24FB8FD4AADF09C883974 /* [CP] Embed Pods Frameworks */,
+				F6E045A0E8A85F0D407A814E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -172,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BC8B4A520C54D3B00FAB697 /* Build configuration list for PBXNativeTarget "FoscorisTests" */;
 			buildPhases = (
+				24CE1CB48C4E8E20874B5554 /* [CP] Check Pods Manifest.lock */,
 				8BC8B48A20C54D3B00FAB697 /* Sources */,
 				8BC8B48B20C54D3B00FAB697 /* Frameworks */,
 				8BC8B48C20C54D3B00FAB697 /* Resources */,
+				C8E3CDCE9D3836CDD928DB2C /* [CP] Embed Pods Frameworks */,
+				B6ADF12554BFAE615337ED01 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -190,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BC8B4A820C54D3B00FAB697 /* Build configuration list for PBXNativeTarget "FoscorisUITests" */;
 			buildPhases = (
+				DBBDA662968D2805D6800F8A /* [CP] Check Pods Manifest.lock */,
 				8BC8B49520C54D3B00FAB697 /* Sources */,
 				8BC8B49620C54D3B00FAB697 /* Frameworks */,
 				8BC8B49720C54D3B00FAB697 /* Resources */,
+				18C16E81D53685A2B638C29D /* [CP] Embed Pods Frameworks */,
+				3F27A158703EF3162BE8CECB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -280,6 +329,158 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18C16E81D53685A2B638C29D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoscorisUITests/Pods-FoscorisUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24CE1CB48C4E8E20874B5554 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoscorisTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F27A158703EF3162BE8CECB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoscorisUITests/Pods-FoscorisUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5570B3F8CC3608FD343D3078 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Foscoris-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACD24FB8FD4AADF09C883974 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Foscoris/Pods-Foscoris-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6ADF12554BFAE615337ED01 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoscorisTests/Pods-FoscorisTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8E3CDCE9D3836CDD928DB2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoscorisTests/Pods-FoscorisTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBBDA662968D2805D6800F8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoscorisUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6E045A0E8A85F0D407A814E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Foscoris/Pods-Foscoris-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Foscoris/Pods-Foscoris-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8BC8B47620C54D3B00FAB697 /* Sources */ = {
@@ -452,6 +653,7 @@
 		};
 		8BC8B4A320C54D3B00FAB697 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9105C76F4D9F68494D42D26 /* Pods-Foscoris.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -467,6 +669,7 @@
 		};
 		8BC8B4A420C54D3B00FAB697 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FD5AAD0493674E66C164E6B /* Pods-Foscoris.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -482,6 +685,7 @@
 		};
 		8BC8B4A620C54D3B00FAB697 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71F9F04367B278F22B8CAAEB /* Pods-FoscorisTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -499,6 +703,7 @@
 		};
 		8BC8B4A720C54D3B00FAB697 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D35BD9135BCA3DD617D7F7A /* Pods-FoscorisTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +721,7 @@
 		};
 		8BC8B4A920C54D3B00FAB697 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 205FEFBE94D81C3131167B8E /* Pods-FoscorisUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +738,7 @@
 		};
 		8BC8B4AA20C54D3B00FAB697 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE7402C720C942126E148CAF /* Pods-FoscorisUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
