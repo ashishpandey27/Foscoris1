@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BBC7E8320C65853006861FC /* list-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BBC7E8220C65853006861FC /* list-menu.png */; };
+		8BBC7E8520C65A4E006861FC /* FSSAI_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BBC7E8420C65A4D006861FC /* FSSAI_logo.png */; };
+		8BBC7E8720C65B23006861FC /* LiveInspectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBC7E8620C65B23006861FC /* LiveInspectionViewController.swift */; };
+		8BC8B47E20C54D3B00FAB697 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC8B47D20C54D3B00FAB697 /* AppDelegate.swift */; };
+		8BC8B48020C54D3B00FAB697 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC8B47F20C54D3B00FAB697 /* ViewController.swift */; };
+		8BC8B48320C54D3B00FAB697 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC8B48120C54D3B00FAB697 /* Main.storyboard */; };
+		8BC8B48520C54D3B00FAB697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC8B48420C54D3B00FAB697 /* Assets.xcassets */; };
+		8BC8B48820C54D3B00FAB697 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC8B48620C54D3B00FAB697 /* LaunchScreen.storyboard */; };
+		8BC8B49320C54D3B00FAB697 /* FoscorisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC8B49220C54D3B00FAB697 /* FoscorisTests.swift */; };
+		8BC8B49E20C54D3B00FAB697 /* FoscorisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC8B49D20C54D3B00FAB697 /* FoscorisUITests.swift */; };
+		8BC8B4AD20C54EE300FAB697 /* FoscorisLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BC8B4AC20C54EE300FAB697 /* FoscorisLogo.png */; };
+		8BC8B4AF20C5630A00FAB697 /* DropDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BC8B4AE20C5630900FAB697 /* DropDown.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BC8B48F20C54D3B00FAB697 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BC8B47220C54D3B00FAB697 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BC8B47920C54D3B00FAB697;
+			remoteInfo = Foscoris;
+		};
+		8BC8B49A20C54D3B00FAB697 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BC8B47220C54D3B00FAB697 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BC8B47920C54D3B00FAB697;
+			remoteInfo = Foscoris;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8BBC7E8220C65853006861FC /* list-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-menu.png"; sourceTree = "<group>"; };
+		8BBC7E8420C65A4D006861FC /* FSSAI_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FSSAI_logo.png; sourceTree = "<group>"; };
+		8BBC7E8620C65B23006861FC /* LiveInspectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveInspectionViewController.swift; sourceTree = "<group>"; };
+		8BC8B47A20C54D3B00FAB697 /* Foscoris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foscoris.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BC8B47D20C54D3B00FAB697 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BC8B47F20C54D3B00FAB697 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8BC8B48220C54D3B00FAB697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BC8B48420C54D3B00FAB697 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BC8B48720C54D3B00FAB697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BC8B48920C54D3B00FAB697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BC8B48E20C54D3B00FAB697 /* FoscorisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoscorisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BC8B49220C54D3B00FAB697 /* FoscorisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoscorisTests.swift; sourceTree = "<group>"; };
+		8BC8B49420C54D3B00FAB697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BC8B49920C54D3B00FAB697 /* FoscorisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoscorisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BC8B49D20C54D3B00FAB697 /* FoscorisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoscorisUITests.swift; sourceTree = "<group>"; };
+		8BC8B49F20C54D3B00FAB697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BC8B4AC20C54EE300FAB697 /* FoscorisLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FoscorisLogo.png; sourceTree = "<group>"; };
+		8BC8B4AE20C5630900FAB697 /* DropDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DropDown.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BC8B47720C54D3B00FAB697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC8B48B20C54D3B00FAB697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC8B49620C54D3B00FAB697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BC8B47120C54D3B00FAB697 = {
+			isa = PBXGroup;
+			children = (
+				8BC8B47C20C54D3B00FAB697 /* Foscoris */,
+				8BC8B49120C54D3B00FAB697 /* FoscorisTests */,
+				8BC8B49C20C54D3B00FAB697 /* FoscorisUITests */,
+				8BC8B47B20C54D3B00FAB697 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BC8B47B20C54D3B00FAB697 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BC8B47A20C54D3B00FAB697 /* Foscoris.app */,
+				8BC8B48E20C54D3B00FAB697 /* FoscorisTests.xctest */,
+				8BC8B49920C54D3B00FAB697 /* FoscorisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BC8B47C20C54D3B00FAB697 /* Foscoris */ = {
+			isa = PBXGroup;
+			children = (
+				8BC8B4AB20C54EB600FAB697 /* Images */,
+				8BC8B47D20C54D3B00FAB697 /* AppDelegate.swift */,
+				8BC8B47F20C54D3B00FAB697 /* ViewController.swift */,
+				8BBC7E8620C65B23006861FC /* LiveInspectionViewController.swift */,
+				8BC8B48120C54D3B00FAB697 /* Main.storyboard */,
+				8BC8B48420C54D3B00FAB697 /* Assets.xcassets */,
+				8BC8B48620C54D3B00FAB697 /* LaunchScreen.storyboard */,
+				8BC8B48920C54D3B00FAB697 /* Info.plist */,
+			);
+			path = Foscoris;
+			sourceTree = "<group>";
+		};
+		8BC8B49120C54D3B00FAB697 /* FoscorisTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BC8B49220C54D3B00FAB697 /* FoscorisTests.swift */,
+				8BC8B49420C54D3B00FAB697 /* Info.plist */,
+			);
+			path = FoscorisTests;
+			sourceTree = "<group>";
+		};
+		8BC8B49C20C54D3B00FAB697 /* FoscorisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8BC8B49D20C54D3B00FAB697 /* FoscorisUITests.swift */,
+				8BC8B49F20C54D3B00FAB697 /* Info.plist */,
+			);
+			path = FoscorisUITests;
+			sourceTree = "<group>";
+		};
+		8BC8B4AB20C54EB600FAB697 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8BC8B4AC20C54EE300FAB697 /* FoscorisLogo.png */,
+				8BC8B4AE20C5630900FAB697 /* DropDown.png */,
+				8BBC7E8220C65853006861FC /* list-menu.png */,
+				8BBC7E8420C65A4D006861FC /* FSSAI_logo.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BC8B47920C54D3B00FAB697 /* Foscoris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BC8B4A220C54D3B00FAB697 /* Build configuration list for PBXNativeTarget "Foscoris" */;
+			buildPhases = (
+				8BC8B47620C54D3B00FAB697 /* Sources */,
+				8BC8B47720C54D3B00FAB697 /* Frameworks */,
+				8BC8B47820C54D3B00FAB697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Foscoris;
+			productName = Foscoris;
+			productReference = 8BC8B47A20C54D3B00FAB697 /* Foscoris.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BC8B48D20C54D3B00FAB697 /* FoscorisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BC8B4A520C54D3B00FAB697 /* Build configuration list for PBXNativeTarget "FoscorisTests" */;
+			buildPhases = (
+				8BC8B48A20C54D3B00FAB697 /* Sources */,
+				8BC8B48B20C54D3B00FAB697 /* Frameworks */,
+				8BC8B48C20C54D3B00FAB697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BC8B49020C54D3B00FAB697 /* PBXTargetDependency */,
+			);
+			name = FoscorisTests;
+			productName = FoscorisTests;
+			productReference = 8BC8B48E20C54D3B00FAB697 /* FoscorisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8BC8B49820C54D3B00FAB697 /* FoscorisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BC8B4A820C54D3B00FAB697 /* Build configuration list for PBXNativeTarget "FoscorisUITests" */;
+			buildPhases = (
+				8BC8B49520C54D3B00FAB697 /* Sources */,
+				8BC8B49620C54D3B00FAB697 /* Frameworks */,
+				8BC8B49720C54D3B00FAB697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BC8B49B20C54D3B00FAB697 /* PBXTargetDependency */,
+			);
+			name = FoscorisUITests;
+			productName = FoscorisUITests;
+			productReference = 8BC8B49920C54D3B00FAB697 /* FoscorisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BC8B47220C54D3B00FAB697 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Neuweg Technologies";
+				TargetAttributes = {
+					8BC8B47920C54D3B00FAB697 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8BC8B48D20C54D3B00FAB697 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8BC8B47920C54D3B00FAB697;
+					};
+					8BC8B49820C54D3B00FAB697 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8BC8B47920C54D3B00FAB697;
+					};
+				};
+			};
+			buildConfigurationList = 8BC8B47520C54D3B00FAB697 /* Build configuration list for PBXProject "Foscoris" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BC8B47120C54D3B00FAB697;
+			productRefGroup = 8BC8B47B20C54D3B00FAB697 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BC8B47920C54D3B00FAB697 /* Foscoris */,
+				8BC8B48D20C54D3B00FAB697 /* FoscorisTests */,
+				8BC8B49820C54D3B00FAB697 /* FoscorisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BC8B47820C54D3B00FAB697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC8B4AF20C5630A00FAB697 /* DropDown.png in Resources */,
+				8BC8B4AD20C54EE300FAB697 /* FoscorisLogo.png in Resources */,
+				8BBC7E8320C65853006861FC /* list-menu.png in Resources */,
+				8BBC7E8520C65A4E006861FC /* FSSAI_logo.png in Resources */,
+				8BC8B48820C54D3B00FAB697 /* LaunchScreen.storyboard in Resources */,
+				8BC8B48520C54D3B00FAB697 /* Assets.xcassets in Resources */,
+				8BC8B48320C54D3B00FAB697 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC8B48C20C54D3B00FAB697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC8B49720C54D3B00FAB697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BC8B47620C54D3B00FAB697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC8B48020C54D3B00FAB697 /* ViewController.swift in Sources */,
+				8BBC7E8720C65B23006861FC /* LiveInspectionViewController.swift in Sources */,
+				8BC8B47E20C54D3B00FAB697 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC8B48A20C54D3B00FAB697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC8B49320C54D3B00FAB697 /* FoscorisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC8B49520C54D3B00FAB697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC8B49E20C54D3B00FAB697 /* FoscorisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BC8B49020C54D3B00FAB697 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BC8B47920C54D3B00FAB697 /* Foscoris */;
+			targetProxy = 8BC8B48F20C54D3B00FAB697 /* PBXContainerItemProxy */;
+		};
+		8BC8B49B20C54D3B00FAB697 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BC8B47920C54D3B00FAB697 /* Foscoris */;
+			targetProxy = 8BC8B49A20C54D3B00FAB697 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BC8B48120C54D3B00FAB697 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BC8B48220C54D3B00FAB697 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BC8B48620C54D3B00FAB697 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BC8B48720C54D3B00FAB697 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BC8B4A020C54D3B00FAB697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8BC8B4A120C54D3B00FAB697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BC8B4A320C54D3B00FAB697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XY7T3Y5MS8;
+				INFOPLIST_FILE = Foscoris/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neuweg.Foscoris;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BC8B4A420C54D3B00FAB697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XY7T3Y5MS8;
+				INFOPLIST_FILE = Foscoris/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neuweg.Foscoris;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8BC8B4A620C54D3B00FAB697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XY7T3Y5MS8;
+				INFOPLIST_FILE = FoscorisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neuweg.FoscorisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Foscoris.app/Foscoris";
+			};
+			name = Debug;
+		};
+		8BC8B4A720C54D3B00FAB697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XY7T3Y5MS8;
+				INFOPLIST_FILE = FoscorisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neuweg.FoscorisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Foscoris.app/Foscoris";
+			};
+			name = Release;
+		};
+		8BC8B4A920C54D3B00FAB697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XY7T3Y5MS8;
+				INFOPLIST_FILE = FoscorisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neuweg.FoscorisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Foscoris;
+			};
+			name = Debug;
+		};
+		8BC8B4AA20C54D3B00FAB697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XY7T3Y5MS8;
+				INFOPLIST_FILE = FoscorisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neuweg.FoscorisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Foscoris;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BC8B47520C54D3B00FAB697 /* Build configuration list for PBXProject "Foscoris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC8B4A020C54D3B00FAB697 /* Debug */,
+				8BC8B4A120C54D3B00FAB697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BC8B4A220C54D3B00FAB697 /* Build configuration list for PBXNativeTarget "Foscoris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC8B4A320C54D3B00FAB697 /* Debug */,
+				8BC8B4A420C54D3B00FAB697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BC8B4A520C54D3B00FAB697 /* Build configuration list for PBXNativeTarget "FoscorisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC8B4A620C54D3B00FAB697 /* Debug */,
+				8BC8B4A720C54D3B00FAB697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BC8B4A820C54D3B00FAB697 /* Build configuration list for PBXNativeTarget "FoscorisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC8B4A920C54D3B00FAB697 /* Debug */,
+				8BC8B4AA20C54D3B00FAB697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BC8B47220C54D3B00FAB697 /* Project object */;
+}
